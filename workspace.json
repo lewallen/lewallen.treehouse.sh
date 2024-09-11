@@ -1,13 +1,14 @@
 {
   "version": 1,
-  "lastopen": "m0yak86mli76l21cqqd",
+  "lastopen": "m0yakpxt91q4omngfy",
   "expanded": {
     "@workspace": {},
     "m0yajqujp5kkitxvdr": {},
     "m0yajhqombk4d12mu1p": {
       "m0yajhqombk4d12mu1p": true,
-      "m0yak86mli76l21cqqd": false
-    }
+      "m0yak86mli76l21cqqd": true
+    },
+    "m0yak86mli76l21cqqd": {}
   },
   "nodes": [
     {
@@ -96,7 +97,9 @@
       "ID": "m0yak86mli76l21cqqd",
       "Name": "Here's a node",
       "Linked": {
-        "Children": [],
+        "Children": [
+          "m0yakpxt91q4omngfy"
+        ],
         "Components": [
           "m0yakcp4kioeh2g56v"
         ]
@@ -118,6 +121,16 @@
       "Attrs": {},
       "Parent": "m0yak86mli76l21cqqd",
       "Rel": "Components"
+    },
+    {
+      "ID": "m0yakpxt91q4omngfy",
+      "Name": "fasfsd",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "m0yak86mli76l21cqqd"
     }
   ],
   "settings": {}
