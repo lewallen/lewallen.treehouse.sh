@@ -4,7 +4,9 @@
   "expanded": {
     "@workspace": {},
     "m0yajqujp5kkitxvdr": {},
-    "m0yajhqombk4d12mu1p": {}
+    "m0yajhqombk4d12mu1p": {
+      "m0yajhqombk4d12mu1p": true
+    }
   },
   "nodes": [
     {
@@ -47,7 +49,9 @@
       "ID": "m0yajhqombk4d12mu1p",
       "Name": "Home",
       "Linked": {
-        "Children": [],
+        "Children": [
+          "m0yak86mli76l21cqqd"
+        ],
         "Components": []
       },
       "Attrs": {},
@@ -86,6 +90,33 @@
       },
       "Attrs": {},
       "Parent": "m0yajquj1yehto95tvgh"
+    },
+    {
+      "ID": "m0yak86mli76l21cqqd",
+      "Name": "Here's a node",
+      "Linked": {
+        "Children": [],
+        "Components": [
+          "m0yakcp4kioeh2g56v"
+        ]
+      },
+      "Attrs": {},
+      "Parent": "m0yajhqombk4d12mu1p"
+    },
+    {
+      "ID": "m0yakcp4kioeh2g56v",
+      "Name": "treehouse.Clock",
+      "Value": {
+        "log": [],
+        "showLog": false
+      },
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "m0yak86mli76l21cqqd",
+      "Rel": "Components"
     }
   ],
   "settings": {}
