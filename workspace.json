@@ -1,8 +1,10 @@
 {
   "version": 1,
-  "lastopen": "@workspace",
+  "lastopen": "m0yajhqombk4d12mu1p",
   "expanded": {
-    "@workspace": {}
+    "@workspace": {},
+    "m0yajqujp5kkitxvdr": {},
+    "m0yajhqombk4d12mu1p": {}
   },
   "nodes": [
     {
@@ -33,7 +35,9 @@
       "ID": "@calendar",
       "Name": "Calendar",
       "Linked": {
-        "Children": [],
+        "Children": [
+          "m0yajqujmou9ek9tj3p"
+        ],
         "Components": []
       },
       "Attrs": {},
@@ -48,6 +52,40 @@
       },
       "Attrs": {},
       "Parent": "@workspace"
+    },
+    {
+      "ID": "m0yajqujmou9ek9tj3p",
+      "Name": "2024",
+      "Linked": {
+        "Children": [
+          "m0yajquj1yehto95tvgh"
+        ],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@calendar"
+    },
+    {
+      "ID": "m0yajquj1yehto95tvgh",
+      "Name": "Week 37",
+      "Linked": {
+        "Children": [
+          "m0yajqujp5kkitxvdr"
+        ],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "m0yajqujmou9ek9tj3p"
+    },
+    {
+      "ID": "m0yajqujp5kkitxvdr",
+      "Name": "Wed, 11 Sep ",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "m0yajquj1yehto95tvgh"
     }
   ],
   "settings": {}
